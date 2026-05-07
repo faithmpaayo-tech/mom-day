@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* 💕 Mum picture styling */
+.mum-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #d6336c;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #d6336c;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-top: 25px;
+  color: #b2225c;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  } 
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
